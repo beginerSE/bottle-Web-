@@ -1,3 +1,8 @@
-<body>
-Bottle　Index画面
-</body>
+{% extends '/base.html' %}
+
+{% block breadcrumb %}
+    <li class="titles" aria-current="page">{{ title }}</li>
+{% endblock %}
+{% block content %}
+<h3>Bottle　Index.htmlの画面</h3>
+{% endblock %}
