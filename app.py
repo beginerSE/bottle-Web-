@@ -16,3 +16,7 @@ TEMPLATE_PATH.append("/template")
 @app.route('/index', method=['GET'])
 def index():
     return template('index.html)
+                    
+                    
+
+run(app=app, server='paste', host=host, port=port)
